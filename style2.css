@@ -1,0 +1,110 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Page */
+body {
+    background-color: #f6f8fa;
+    padding: 60px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #57606a;
+    font-size: 18px;
+}
+
+/* Pricing layout */
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Pricing cards */
+.card {
+    background: white;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Popular card */
+.popular {
+    border: 2px solid #2da44e;
+}
+
+/* Card title */
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Price */
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.price span {
+    font-size: 14px;
+    color: #57606a;
+}
+
+/* Subtitle */
+.subtitle {
+    color: #57606a;
+    margin-bottom: 20px;
+}
+
+/* Features */
+.card ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Button */
+.card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+
+    background-color: #2da44e;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    body {
+        padding: 30px;
+    }
+}
