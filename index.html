@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>I love Kazakhstan 🇰🇿 and Iran 🇮🇷</h1>
+    <p class="subtitle">To Do List</p>
+  </header>
+
+  <main class="container">
+
+    <section class="todo-section">
+      <form id="todo-form" class="todo-form">
+        <label for="todo-input">Add new task</label>
+        <div class="input-wrapper">
+          <input
+            type="text"
+            id="todo-input"
+            placeholder="What do you need to do?"
+            required
+          >
+          <button type="submit">Add</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="list-section">
+      <ul id="todo-list" class="todo-list">
+        <!-- JavaScript will create <li> items here -->
+      </ul>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
